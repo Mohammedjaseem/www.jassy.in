@@ -1569,5 +1569,6 @@ var output = ["CPU0 microcode updated early to revision 0x1b, date = 2014-05-29"
     "Redirecting...!",
     "Redirecting...!",
     "Redirecting...!",
+    "Please wait for a while..!",
     "Please wait for a while..!", ""
 ];
