@@ -1,0 +1,22 @@
+p {
+    width: 50%;
+    text-align: center;
+}
+
+.text-red {
+    color: red;
+}
+
+.blink-hard {
+    animation: blinker 1s step-end infinite;
+}
+
+.blink-soft {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
