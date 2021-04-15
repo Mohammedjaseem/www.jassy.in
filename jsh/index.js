@@ -1,7 +1,6 @@
 var textarea = $('.term');
-var speed = 100; //Writing speed in milliseconds
+var speed = 50; //Writing speed in milliseconds
 var text = 'apt-get update && ./JassyWeb.sh';
-
 var i = 0;
 
 runner();
