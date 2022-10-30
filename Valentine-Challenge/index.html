@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Valatine Mdc</title>
+    <meta name="Jassy.in" content="" />
+    <meta name="keywords" content=" " />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    
+    
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* The Modal (background) */
+        
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+        /* Modal Content */
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+        /* The Close Button */
+        
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+    </style>
+    <!-- Libs CSS -->
+    <link type="text/css" media="all" href="assets/boostrap-files/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Template CSS -->
+    <link type="text/css" media="all" href="assets/css/style.css" rel="stylesheet" />
+    <!-- Responsive CSS -->
+    <link type="text/css" media="all" href="assets/css/respons.css" rel="stylesheet" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/favicon144x144.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/favicon114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/favicon72x72.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicons/favicon57x57.png" />
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.png" />
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,800italic,800,700italic,700,600italic,600,400italic,300' rel='stylesheet' type='text/css' />
+
+</head>
+
+<body style="background-color: #ffffff;">
+
+    <audio id="audio">
+  <source src="bgm.mp3" type="audio/mpeg">
+        </audio>
+
+    <body style="background-color:;">
+    <!-- Load page -->
+    <div class="animationload">
+        <div class="loader">
+        </div>
+    </div>
+    <!-- End load page -->
+
+
+    <!-- Content Wrapper -->
+    <div id="wrapper">
+        <div class="container">
+
+            <!-- Number -->
+            <div class="number"></div>
+            <!-- end Number -->
+
+            <div class="clearfix"></div>
+
+            <!-- Child -->
+            <div class="child">
+                <div class="mouth"></div>
+                <div class="hand"></div>
+            </div>
+            <!-- end Child -->
+
+            <!-- Trigger/Open The Modal -->
+
+            
+
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                        <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>
+                        <b></b><b><b>Unlock Here
+                         <br><center><u style="font-size: large;">Read Instruction </u></center></b></b> If the name entered by you is my crush, It will be automatically redirect to the message, or else u will not<br><br><b><b></b>*This is for just entertainment purposes only* </b></b> </b> </b>  <br><br>
+                        <label for="lname"><b><b>Enter your Full Name</b></b> </label>
+                        <input  type="text"  id="lname" name="lname" />
+
+                        <p id="demo"></p>
+                        <button type="button" class="btn" href="#" onclick="myFunction()">  Check  </button> </p>
+                </div>
+                </div>
+            </div>
+
+            <!-- Info -->
+            
+            <div class="info">
+               <label class="switch" onclick="toggleSound();" >             
+                <input  type="checkbox">
+                 <span  class="slider round"  onclick="toggleSound();"></span>
+                    </label><br>
+                   <b><b><b style="color:rgb(116, 114, 207);">Background Music</b></b></b> <br><br>
+                   
+                <h2><h2 style="color:rgb(184, 26, 26);">"Check if i have<br> any crush on you"</h2></h2><br>
+                <p><b><b style="color:rgb(116, 114, 207);"> “This is for just <br> Entertainment purposes only”</b> <br>
+                <p style="color:rgb(136, 80, 80);"> “I have a <b><b>Crush here</b></b> in MDC, Lol 😂 <br>Find my crush if u can” </p>
+                <button id="myBtn" class="btn">Let's Try</button> <br>        
+                <br><footer style="color:rgb(116, 114, 207);">&copy; Copyright 2021 <br>
+               
+                 </footer>       
+            </div>
+            <!-- end Info -->
+
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- Scripts -->
+    
+    <script>
+ 
+function myFunction() {
+  var x, text; var y, text1;
+
+  x = document.getElementById("lname").value;
+
+    
+	console.log(x);
+
+    name = x;
+    x = x.trim(); 
+    x = x.toLowerCase();
+    x = calcERROR(x);
+
+  if (x === 'e22858a8b0fc37540164034cfea96c49' || x === '471db68cbd9a4330439a728aa3f74dd6') {
+
+    var audio = new Audio('win.mp3');
+    audio.play();
+    text = " <br><b><b>Yea..! " + name + ", i have a crush on you <br> Lol 😂 ";
+    setTimeout(function(){
+     window.open("https://api.whatsapp.com/send?phone=918086500023&text=Howdie,%20cracked%20your%20challenge%20and%20I%20know%20that%20it's%20just%20for%20Entertiment%20purpose%20only","_self")  }, 4000); 
+    
+  } 
+  else if (x === 'fe6e6b2fbce5ad9b0e2344ec517afbcf' || x === '1f05ad9ce36b7d6de1aba04387193a55') {
+    var audio = new Audio('wrong.mp3');
+    audio.play();
+    text = " <br><b><b>Come onn...! " + name + ", you are Bestie not my crush <br> Lol 😂 ";
+
+  }
+
+  else if (x === '3b80edb3ec19b2324df3917a813fcef9') {
+    var audio = new Audio('assets/idfc_acoustic.mp3');
+    audio.play();
+    text = " <br><b><b>Come onn...! " + name + ", How Dare you....!!!! Did u remember what Mr. bean once said, if not i will show u that one here";
+    setTimeout(function(){
+     window.open("assets/img/nab-re.jpeg","_self")  }, 9500); 
+    
+  }
+
+  else {
+    var audio = new Audio('wrong.mp3');
+    audio.play();
+    text = "<br><b> Sorry,<b><b> " + name + "</b></b>, I don't have any crush on you";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+
+        <script type="text/javascript">
+        function toggleSound() {
+        var audioElem = document.getElementById('audio');
+        if (audioElem.paused)
+        audioElem.play();
+        else
+        audioElem.pause();
+        }
+        </script>
+
+
+    <script>
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <script src="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="assets/boostrap-files/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+    <script src="assets/js/scripts.js" type="text/javascript"></script>
+    <script language="JavaScript" src="src.js"></script>
+</body>
+
+</html>

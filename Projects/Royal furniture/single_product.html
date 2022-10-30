@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="css/single_product.css" type="text/css">
+        
+    </head>
+
+      <body>
+          <header>
+              <nav class="navbar navbar-light navbar-expand-md bg-faded navbar fixed-top" id="navbar">
+                <a href="#" class="navbar-brand d-flex" id="navbar_brand">Royal furniture</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                    <ul class="navbar-nav w-100 justify-content-center" id="navbar-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Wo are we</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="earnwithus.html">Earn with us</a>
+                      </li>
+                    </ul>
+                    
+                    <ul class="nav navbar-nav justify-content-end navbar-expand-sm" >
+                          <li class="nav-item" id="wp_icon">
+                            <a class="btn btn-success" href="design_room.html" id="nav_btn" role="button"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-danger" href="design_room.html" id="nav_btn" role="button">DESIGNER ROOM</a>
+                        </li>
+                    </ul>
+                  </div>
+            </nav>
+          
+          </header>
+
+              <section>
+
+                  <div class="row" id="row">
+                      <div class="col-sm-1"></div>
+
+                        <div class="col-sm-4 animate__animated animate__zoomIn">
+                            <div id="container">
+                                  <div class="mySlides">
+                                    <img src="images/2082090.jpg" class="img-fluid">
+                                  </div>
+                                
+                                  <div class="mySlides">
+                                    <img src="images/534172.jpg" class="img-fluid">
+                                  </div>
+                                
+                                  <div class="mySlides">
+                                    <img src="images/2082090.jpg" class="img-fluid">
+                                  </div>
+                                
+                                    
+                                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                                  <a class="next" onclick="plusSlides(1)">❯</a>
+                            
+                            </div>
+                        </div>
+
+                          <div class="col-sm-6 animate__animated animate__fadeIn">
+
+                                <div class="row" id="prdt_dts_row">
+                                    <div class="col-sm-9">
+                                       <h1>zuari nuki with loft enginereed</h1>
+                                    </div> 
+                                    
+                                    <div class="col-sm-3">
+                                        <p id="prdt_rating">4.8
+                                          <span id="icon"><i class="fas fa-star"></i></span>
+                                        </p>
+                                    </div>    
+
+                               
+                                      <div class="col-sm-12">
+                                         <p id="prdt_decpt">finish color-white, mirror included</p>
+                                      </div>
+
+                                      <div class="col-sm-8">
+                                        <p id="prdt_dts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel</p>  
+                                      </div>
+                                      
+                                      <div class="col-sm-12">
+                                              <p><span id="price"><i class="fas fa-rupee-sign"></i>18,000</span>
+                                                    <span id="mrp"><i class="fas fa-rupee-sign"></i>41,998</span>
+                                                    <span id="off">54% off</span>
+                                                </p>
+                                      </div>
+
+                                 </div>
+                                            <div class="row">
+                                                <div class="col-sm-4" id="img_row">
+                                                          <div id="column">
+                                                                <img class="demo cursor" src="images/2082090.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                                                          </div>
+                                                </div>
+
+                                                <div class="col-sm-4" id="img_row">
+                                                  
+                                                    <div id="column">
+                                                      <img class="demo cursor" src="images/534172.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                                                    </div>
+                                                  
+                                                </div>
+
+                                                <div class="col-sm-4" id="img_row">
+                                                  
+                                                    <div id="column">
+                                                        <img class="demo cursor" src="images/2082090.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                                                    
+                                                  </div>
+                                                </div>
+                                              
+                                            </div>
+                          </div>
+
+                            <div class="col-sm-1"></div>
+
+                  </div>
+              </section>
+    <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+    
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+    
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+    
+                function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+    </script>
+
+      </body>
+   
+</html>

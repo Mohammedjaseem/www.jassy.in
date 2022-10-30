@@ -1,0 +1,163 @@
+
+.back-img{
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dp{
+    height: 140px;
+    width: 140px;
+    margin-top: -50px;
+}
+
+.bannerimg{
+    height: 150px;
+    width: 120%;
+    border-radius: 30px 30px 0 0;
+    object-fit: cover;
+}
+.canvas{
+    max-width: 319px;
+    background: white;
+    height: 539px;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #000000;
+    margin: 0;
+    background: url('https://i.pinimg.com/originals/d5/3e/6a/d53e6af334705a49a3f55770ff9fe84a.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+p {
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+
+.insta-name {
+    display: block;
+    text-align: center;
+    z-index: 5;
+    position: relative;
+    margin-top: 20px;
+}
+
+.insta-name h2 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    color: #2d303a;
+    margin: 0;
+}
+
+.insta-name h2 span {
+    display: block;
+    font-size: 13px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.insta-followers-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
+}
+
+.insta-follow {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 8px 0px 0px ;
+}
+
+.insta-follow h2 {
+    color: #3372b5;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    margin: 20px;
+}
+
+.insta-follow h2 span {
+    color: #666;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+
+
+.insta-button a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 240px;
+    height: 50px;
+    background: #e8c411;
+    color: #000;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    -webkit-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+    transition: 0.3s all ease-in;
+}
+
+.insta-bio p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    text-align: left;
+    display: block;
+}
+
+
+/* hovers */
+
+.insta-button a:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background: #fbfb00;
+}

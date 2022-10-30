@@ -1,0 +1,280 @@
+body
+{
+  font-family: "poppins";
+}
+header{
+  background-color: white;
+}
+#more{
+    display:none;
+}
+section{
+    overflow: hidden;
+}#myBtn{
+  transition: .5s;
+  font-size: 14px;
+}
+.myText{
+  display: none;
+}.btn1{
+  background-color: white;
+  border: 1px solid #dd3636;
+  font-size: 12px;
+  position: absolute;
+  color: #dd3636;
+  font-weight: 600;
+}.btn2{
+  background-color: white;
+    border: 1px solid #dd3636;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-top: 4px;
+    color: white;
+}.btn1:focus{
+  background-color: white;
+  border: 1px solid #dd3636;
+  font-size: 12px;
+  position: absolute;
+  color: #dd3636;
+  font-weight: 600;
+  outline:none;
+}
+  .btn2:focus{
+    background-color: white;
+    border: 1px solid #dd3636;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-top: 4px;
+    color: white;
+    outline: none;
+    padding-right: 0px;
+}
+/* desktop view*/
+@media only screen and (min-width:1366px){
+
+
+    #navbar{
+        background-color: white;
+        padding: 25px 100px;
+        box-shadow: 0 0 10px grey;
+    }
+
+  #navbar_brand{
+  font-weight: bolder;
+  color:#de0005;
+
+  }
+  #navbar-center a
+  {
+  color:black;
+  font-weight: bolder;
+  padding: 0 50px;
+
+  }#navbar-center a:hover{
+    color:rgba(0,0,0,.5);
+  }
+  #nav_btn{
+    width: max-content;
+  }
+  #heading{
+    margin-top: 159px;
+    margin-left: 50px;
+    color: #f8f8f8;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+  h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    }
+     p{
+    font-size: 15px;
+     }
+     #myBtn{
+    
+    font-size: 13px;
+    }
+    #img1{
+      margin-top: -85px;
+      border-radius: 20px;
+      width: 75%;
+      float: right;
+    }
+    #img2{
+      border-radius: 20px;
+      margin-top: -166px;
+    float: right;
+    margin-right: 18px;
+    }
+    #img3{
+      border-radius: 20px;
+      margin-top: -102px;
+    z-index: 1;
+    
+    }
+    #circle{
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        border:2px solid #ffd410;
+        margin: 210px 0 0 250px;
+    }
+
+
+} @media only screen and (min-width:768px) and (max-width:1365px){
+
+    #navbar {
+      padding: 15px 25px 15px 25px;
+      box-shadow: 0 0 10px grey;
+      background-color: white;
+    }
+    #navbar_brand{
+    font-weight: bolder;
+    color:#de0005;
+
+    }
+    #navbar-center a
+    {
+    color:black;
+    font-weight: bolder;
+    padding: 0 25px;
+
+    }#navbar-center a:hover{
+      color:rgba(0,0,0,.5);
+    }
+    #nav_btn{
+      width: max-content;
+    }
+    #heading{
+      margin-top: 149px;
+    margin-left: 15px;
+    color: #f8f8f8;
+    font-size: 85px;
+    font-weight: bolder;
+    width: 503px;
+    }
+    h1{
+      text-transform: capitalize;
+      font-size: 38px;
+      width:356px;
+      }
+       p{
+        font-size: 18px;
+        width: 350px;
+        margin-top: 20px;
+       }
+       
+      #img1{
+        border-radius: 20px;
+        width: 100%;
+        float: right;
+        margin-top: 250px;
+      }
+      #img2{
+        border-radius: 20px;
+    margin-top: -76px;
+    float: right;
+    margin-right: 30%;
+      }
+      #img3{
+        border-radius: 10px;
+    margin-top: -35px;
+    float: right;
+    margin-right: 25%;
+      
+      }
+      #circle{
+          height: 150px;
+          width: 150px;
+          border-radius: 150px;
+          border:2px solid #ffd410;
+          margin: 530px 0 0 132px;
+          display: none;
+
+      }
+
+
+
+
+
+}@media only screen and (max-width:767px){
+    .navbar {
+        padding: 0px;
+        background-color: white;
+        box-shadow: 0 0 10px grey;
+      }
+      #navbar_brand{
+      font-weight: bolder;
+      color:#de0005;
+      padding-left: 15px;
+      }
+      .navbar-collapse{
+        background-color: white;
+        padding: 0px 0px 20px 20px;
+      }
+      #navbar-center a{
+      color:black;
+      font-weight: bolder;
+      padding:20px 0 ;
+
+      }#navbar-center a:hover{
+        color:rgba(0,0,0,.5);
+      }
+      #nav_btn{
+        width: max-content;
+      }
+      .navbar-toggler{
+        margin:15px;
+      }
+      #heading{
+        margin-top: 100px;
+        
+        color: #f8f8f8;
+        font-size: 56px;
+        font-weight: bolder
+      }
+      h1{
+        text-transform: capitalize;
+        font-size: 30px;
+        /* text-align: center; */
+        font-weight: bold;
+        }
+         p{
+            font-size: 15px;
+            /* width: 350px; */
+            margin-top: 20px;
+            padding: 0 8px;
+            text-align: justify;
+         }
+         section{
+          padding: 0 10px;
+        }
+        #img1{
+          border-radius: 20px;
+          width: 100%;
+          
+          margin-top: 50px;
+        }
+        #img2{
+          border-radius: 20px;
+          padding: 25px 0;
+          display: none;
+        }
+        #img3{
+          border-radius: 10px;
+          padding: 25px 0;
+          display: none;
+        
+        }
+        #circle{
+            height: 150px;
+            width: 150px;
+            border-radius: 150px;
+            border:2px solid #ffd410;
+            margin: 530px 0 0 132px;
+            display: none;
+        }
+  
+  
+  
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+    <head>
+        <title>who are we</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="css/about_style.css" type="text/css">
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-light navbar-expand-md bg-faded navbar fixed-top" id="navbar">
+              <a href="#" class="navbar-brand d-flex" id="navbar_brand">Royal furniture</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                  <ul class="navbar-nav  w-100 justify-content-center" id="navbar-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Wo are we</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="earnwithus.html">Earn with us</a>
+                  </li>
+                  </ul>
+                  
+                  <ul class="nav navbar-nav justify-content-end" >
+                      <li class="nav-item">
+                        <a class="btn btn-danger" href="design_room.html" id="nav_btn" role="button">DESIGNER ROOM</a>
+                      </li>
+                  </ul>
+                </div>
+           </nav>
+          
+          </header>
+
+          <section>
+              <div class="row">
+                  <div class="col-sm-6" >
+                      <h1 id="heading" class="animate__animated animate__fadeIn">who are we</h1>
+                  </div>
+                 
+                  <div class="col-sm-6"></div>
+
+                  <div class="col-sm-1"></div>
+
+                  <div class="col-sm-3 animate__animated animate__fadeInUp">
+                        <h1>to make your space<br> useful and different</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel.</p>
+                <p class="myText">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</p>
+
+                        <button class="btn1"  id="mybtn">learn more about us</button>
+                        <button class="btn2"  id="mybtn">learn more about us</span></button>
+                  </div>
+
+                  <div class="col-sm-4"></div>
+
+                  <div class="col-sm-3">
+                        
+                        <img class="img-fluid " src="images/brown-wooden-vase-near-the-window-1129413.jpg" id="img1">
+                        <div id="circle"></div>
+                  </div>
+
+                  <div class="col-sm-1"></div>
+
+
+                            <div class="col-sm-3"></div>
+                            
+                            <div class="col-sm-3">
+                                <img class="img-fluid " src="images/brown-wooden-center-table-584399.jpg" id="img3">
+                           </div>
+
+                            <div class="col-sm-3">
+                                <img class="img-fluid " src="images/architecture-beverage-chair-coffee-220749.jpg" id="img2">
+                            </div>
+
+
+                            <div class="col-sm-3"></div>
+                
+             </div>
+          </section>
+
+<!--javascript-->
+        <script>
+
+           /* function myFunction(){
+                var dots = document.getElementById("dots");
+                var moreText =document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+                
+                if(dots.style.display === "none"){
+                    dots.style.display = "inline";
+                    btnText.innerHTML ="Learn More about us";
+                    moreText.style.display ="none";
+                } else {
+                    dots.style.display="none";
+                    btnText.innerHTML ="Learn less about us";
+                    moreText.style.display="inline";
+                    
+                }
+            } */
+
+            $("#mybtn").click(function() {
+              
+  var label = $("#mybtn").text().trim();
+  
+  if(label == "Learn less about us") {
+    $("#mybtn").text("Learn More about us");
+    $(".myText").hide();
+    $("#img3").animate({
+    opacity: 1,marginLeft: '00px'});
+    $("#img2").fadeIn();
+    $("#img1").fadeIn();
+    $('.btn2').css({"padding-right":"6px"});
+  }
+  else {
+    $("#mybtn").text("Learn less about us");
+    $(".myText").show();
+    $("#img3").animate({
+    opacity: 0,marginLeft: '500px'});
+    $("#img2").fadeOut();
+    $('#img1').fadeOut();
+    $('.btn2').css({"padding-right":"0px"});
+  }
+   
+ });
+
+        </script>
+
+    </body>
+</html>

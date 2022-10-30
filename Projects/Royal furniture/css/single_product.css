@@ -1,0 +1,340 @@
+header{
+  background-color: white;
+}
+
+body
+{
+  font-family: "poppins";
+}
+h1{
+  font-size: 2.4rem;
+}
+/*image gallery */
+
+
+#container {
+  position: relative;
+  width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: .3;
+  color: white;
+}
+
+
+#img_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+a:not([href]) {
+  text-decoration: none;
+  color: white;
+}
+a:not([href]):hover {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+section{
+    overflow: hidden;
+}
+    
+
+
+/* desktop view*/
+@media only screen and (min-width:1366px){
+
+
+    #navbar{
+        background-color: white;
+        padding: 25px 100px;
+        box-shadow: 0 0 10px grey;
+    }
+
+  #navbar_brand{
+  font-weight: bolder;
+  color:#de0005;
+
+  }
+  #navbar-center a
+  {
+  color:black;
+  font-weight: bolder;
+  padding: 0 50px;
+
+  }#navbar-center a:hover{
+    color:rgba(0,0,0,.5);
+  }
+  #nav_btn{
+    width: max-content;
+  }
+  #row{
+      margin-top: 220px;
+  }
+  #prdt_rating{
+    background-color: #dd3636;
+    width: fit-content;
+    font-size: smaller;
+    color: white;
+    padding: 4px 8px;
+    margin-top: 15px;
+  }
+  #icon{
+      color: white;
+  }
+  #prdt_decpt{
+    margin-top: 9px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: #7a7a7a;
+    text-transform: capitalize;
+  }
+  #prdt_dts{
+    
+    font-size: 14px;
+  }
+  #price{
+    font-size: 16px;
+
+  }
+  #mrp{
+    color: #7a7a7a;
+    margin: 0 13px;
+    font-size: 16px;
+  }
+  #off{
+    color: #4fd64f;
+    font-weight: 700;
+    font-size: 16px;
+
+  }.mt-auto{
+    margin-top: 5% !important;
+  }
+  img{
+    border-radius: 15px;
+  }
+  #wp_icon{
+    padding: 0 10px;
+  }
+
+} 
+/*ipad & tab view*/
+
+@media only screen and (min-width: 768px) and (max-width: 1365px){
+    #navbar{
+        background-color:white;
+        padding: 25px 30px;
+    }
+    #navbar-center a{
+        color:black;
+        font-weight: bolder;
+        padding: 0 25px;
+        text-align: center;
+        }
+        #navbar-center a:hover{
+            color:rgba(0,0,0,.5);
+            transition: 0.5s;
+          }
+          #nav_btn{
+            width: max-content;
+          }
+          #row{
+            margin-top: 220px;
+        }
+        #prdt_rating{
+          background-color: #dd3636;
+          width: fit-content;
+          font-size: smaller;
+          color: white;
+          padding: 4px 8px;
+          margin-top: 15px;
+        }
+        #icon{
+            color: white;
+        }h1{
+            font-size: 30px;
+              text-transform: capitalize;
+        }
+        #prdt_decpt{
+          margin-top: 9px;
+          margin-bottom: 1rem;
+          font-size: 16px;
+          color: #7a7a7a;
+          text-transform: capitalize;
+        }
+        #prdt_dts{
+          
+          font-size: 15px;
+        }
+        #price{
+          font-size: 16px;
+        }
+        #mrp{
+          color: #7a7a7a;
+          margin: 0 13px;
+          font-size: 16px;
+        }
+        #off{
+          color: #4fd64f;
+          font-weight: 700;
+          font-size: 16px;
+      
+        }.mt-auto{
+            margin-top: 30% !important;
+            width: 182% !important;
+            margin-left: -75% !important;
+        }.img-fluid{
+          border-radius: 15px;
+        }
+        #wp_icon{
+          padding: 0 10px;
+        }
+}          
+/*mobile view*/
+@media only screen and (max-width:767px){
+    .navbar {
+        padding: 0px;
+        background-color: white;
+      }
+      #navbar_brand{
+      font-weight: bolder;
+      color:#de0005;
+      padding-left: 15px;
+      }
+      .navbar-collapse{
+        background-color: white;
+        padding: 0px 0px 20px 20px;
+      }
+      #navbar-center a{
+      color:black;
+      font-weight: bolder;
+      padding:20px 0 ;
+
+      }#navbar-center a:hover{
+        color:rgba(0,0,0,.5);
+      }
+      #nav_btn{
+        width: max-content;
+      }
+      .navbar-toggler{
+        margin:15px;
+      }
+      #row{
+        margin-top: 20%;
+    }
+    #prdt_rating{
+      background-color: #dd3636;
+      width: fit-content;
+      font-size: smaller;
+      color: white;
+      padding: 3px;
+      margin-top: 15px;
+    }
+    #icon{
+        color: white;
+    }h1{
+        font-size: 25px;
+    }
+    #prdt_decpt{
+      margin-top: 9px;
+      margin-bottom: 1rem;
+      font-size: 18px;
+      color: #7a7a7a;
+      text-transform: capitalize;
+    }
+    #prdt_dts{
+      
+      font-size: 16px;
+    }
+    #price{
+      font-size: 16px;
+    }
+    #mrp{
+      color: #7a7a7a;
+      margin: 0 13px;
+      font-size: 16px;
+    }
+    #off{
+      color: #4fd64f;
+      font-weight: 700;
+      font-size: 16px;
+  
+    }.mt-auto{
+        margin: 5% 0 !important;
+        width: 100% !important;
+       
+    }.img-fluid{
+      border-radius: 15px;
+    }.col-sm-6{
+        display: flex;
+        flex-direction: column-reverse;
+    }#img_row{
+        width: 33% !important;
+    }#prdt_dts_row{
+        margin: 0 10px 100px;
+    }
+    #wp_icon{
+      padding: 10px 0px;
+    }
+    #img_row{
+      margin: 10px 0;
+    }
+
+}

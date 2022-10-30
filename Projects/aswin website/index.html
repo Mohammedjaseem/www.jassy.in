@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cyber Security Researcher, Cyber Security Trainer,Bug Bounty Hunter, Certified Penetration Tester, And all Teaching Is My Happiness.">
+    <meta name="keywords" content="Aswin Govid, Jaseem Tp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="icon" href="favicon.png" sizes="16x16">
+    <script>
+        const LEFT = 1,
+            TOP = 2,
+            RIGHT = 3,
+            DOWN = 4,
+            TILE_SIZE = 20,
+            ARROW_LEFT = "ArrowLeft",
+            ARROW_RIGHT = "ArrowRight",
+            ARROW_UP = "ArrowUp",
+            SPACE = " ",
+            IMAGE_INDEX = 0,
+            DIV_INDEX = 1;
+        CANVAS_PARTICLES = 0,
+            CANVAS_SNAKE = 1,
+            CANVAS_ASTEROIDS = 2;
+
+        const keyMaps = {
+            [ARROW_LEFT]: false,
+            [ARROW_UP]: false,
+            [ARROW_RIGHT]: false,
+            [SPACE]: false
+        }
+    </script>
+    <title>Aswin Portfolio</title>
+</head>
+
+<body>
+    <canvas id="canvasMain" width="400" height="600"></canvas>
+    <div class="container">
+
+        <div class="profile">
+            <div class="bar left"></div>
+            <img id="imageProfile" src="assets/Pic.jpg" alt="profile.pic">
+            <div class="bar right"></div>
+        </div>
+
+        <div class="user-details">
+            <div class="user-name">
+                <div class="grid">
+                    <div>
+                        <img class="image-corner top-left" src="assets/square_corner_2.svg">
+                    </div>
+                    <div>
+                        <img class="image-corner top-right" src="assets/square_corner_2.svg">
+                    </div>
+                    <div>
+                        <img class="image-corner bottom-left" src="assets/square_corner_2.svg">
+                    </div>
+                    <div>
+                        <img class="image-corner bottom-right" src="assets/square_corner_2.svg">
+                    </div>
+                </div>
+
+                <p class="p-name">
+                    Aswin Govind 🛡
+                </p>
+            </div>
+
+            <div class="user-prof">
+                <div class="grid">
+                    <div>
+                        <img class="image-corner top-left" src="assets/square_corner_2.svg">
+                    </div>
+                    <div>
+                        <img class="image-corner top-right" src="assets/square_corner_2.svg">
+                    </div>
+                    <div>
+                        <img class="image-corner bottom-left" src="assets/square_corner_2.svg">
+                    </div>
+                    <div>
+                        <img class="image-corner bottom-right" src="assets/square_corner_2.svg">
+                    </div>
+                </div>
+
+                <p class="p-desc">
+                    Cyber Security Proffessional <br>
+                    <a href="https://redteamacademy.com/" target="_blank">@RedTeam Hacker Academy</a>
+                </p>
+            </div>
+
+            <div class="contacts">
+                <div class="contact-icon">
+                    <img src="assets/hex_icon_bg.svg" alt="">
+                    <img class="image-main-icon" src="assets/github_mark_120px_plus.png" alt="Git">
+                </div>
+                <div class="contact-icon">
+                    <img src="assets/hex_icon_bg.svg" alt="">
+                    <img class="image-main-icon" src="assets/linkedin.svg" alt="Git">
+                </div>
+                <div class="contact-icon">
+                    <img src="assets/hex_icon_bg.svg" alt="">
+                    <img class="image-main-icon" src="assets/gmail_icon_1280.png" alt="Git">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="page-indicator">
+            <div class="indicator">
+                <img class="hidden" src="assets/hud_rings.svg" alt="hud">
+                <div class="indicator-dot"></div>
+            </div>
+            <div class="indicator">
+                <img class="hidden" src="assets/hud_rings.svg" alt="hud">
+                <div class="indicator-dot"></div>
+            </div>
+            <div class="indicator">
+                <img src="assets/hud_rings.svg" alt="hud">
+                <div class="indicator-dot glow"></div>
+            </div>
+        </div>
+        <h3 style="font-family:poppins; color:aliceblue "> Gifted by <a href="https://mohammedjaseem.me/ " target="_blank ">Jaseem!</a></h3>
+    </div>
+    <script type="text/javascript " src="scripts/utils.js "></script>
+    <script type="text/javascript " src="scripts/dot.js "></script>
+    <script type="text/javascript " src="scripts/snake.js "></script>
+    <script type="text/javascript " src="scripts/laser.js "></script>
+    <script type="text/javascript " src="scripts/asteroid.js "></script>
+    <script type="text/javascript " src="scripts/spaceship.js "></script>
+    <script type="text/javascript " src="scripts/script.js "></script>
+</body>
+
+</html>

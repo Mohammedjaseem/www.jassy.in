@@ -1,0 +1,188 @@
+body
+{
+  font-family: "poppins";
+}
+section{
+    overflow: hidden;
+}
+/* desktop view*/
+@media only screen and (min-width:1366px){
+
+
+  #navbar{
+    background-color: white;
+    padding: 25px 100px;
+    box-shadow: 0 0 10px grey;
+}
+
+#navbar_brand{
+font-weight: bolder;
+color:#de0005;
+
+}
+#navbar-center a
+{
+color:black;
+font-weight: bolder;
+padding: 0 50px;
+
+}#navbar-center a:hover{
+color:rgba(0,0,0,.5);
+}
+#nav_btn{
+width: max-content;
+}
+  .row{
+    margin: 214px 0 0;
+  }
+  h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+
+  }
+  p{
+    font-size: 18px;
+  }h3{
+    font-weight: 800;
+  }#join_btn{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }img{
+    margin-top: -70px;
+    border-radius: 10px 50px 10px 10px;
+    width: 85%;
+  }
+  #navybg{
+    background-color: #19283e;
+    height: 90px;
+    margin-top: 53px;
+  }
+
+
+
+
+
+}
+
+      /*tab view*/
+
+@media only screen and (min-width:768px) and (max-width:1365px)
+{
+  #navbar {
+    padding: 15px 25px 15px 25px;
+    box-shadow: 0 0 10px grey;
+    background-color: white;
+  }
+  #navbar_brand{
+  font-weight: bolder;
+  color:#de0005;
+
+  }
+  #navbar-center a
+  {
+  color:black;
+  font-weight: bolder;
+  padding: 0 25px;
+
+  }
+  #navbar-center a:hover{
+    color:rgba(0,0,0,.5);
+  }
+  #nav_btn{
+    width: max-content;
+  }
+  .row{
+    margin: 220px 0 0;
+  }
+  h1{
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: bold;
+
+  }
+  p{
+    font-size: 20px;
+    
+  }h3{
+    font-weight: 800;
+  }button{
+    font-size: 18px;
+    letter-spacing: 1px;s
+  }
+  img{
+    
+    border-radius: 10px 50px 10px 10px;
+    
+  }
+  #navybg{
+    background-color: #19283e;
+    height: 90px;
+    margin-top: 53px;
+  }
+
+
+
+
+}
+
+@media only screen and (max-width:767px){
+  .navbar {
+    padding: 0px;
+    background-color: white;
+    box-shadow: 0 0 10px grey;
+  }
+  #navbar_brand{
+  font-weight: bolder;
+  color:#de0005;
+  padding-left: 15px;
+  }
+  .navbar-collapse{
+    background-color: white;
+    padding: 0px 0px 20px 20px;
+  }
+  #navbar-center a{
+  color:black;
+  font-weight: bolder;
+  padding:20px 0 ;
+
+  }#navbar-center a:hover{
+    color:rgba(0,0,0,.5);
+  }
+  #nav_btn{
+    width: max-content;
+  }
+  .navbar-toggler{
+    margin:15px;
+  }  .row{
+    margin: 120px 0 0;
+  }
+  h1{
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: bold;
+
+  }
+  p{
+    font-size: 20px;
+    
+  }h3{
+    font-weight: 800;
+  }button{
+    font-size: 18px;
+    letter-spacing: 1px;s
+  }img{
+    
+    border-radius: 10px 50px 10px 10px;
+    margin-top: 50px;
+    
+  }
+  #navybg{
+    background-color: #19283e;
+    height: 90px;
+    margin-top: 53px;
+  }
+
+
+}

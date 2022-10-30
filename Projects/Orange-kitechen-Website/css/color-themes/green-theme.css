@@ -1,0 +1,276 @@
+/* Theme Color */
+
+.main-header .outer-box .nav-toggler,
+.header-style-one .main-menu .navigation > li > a:hover,
+.social-icon-three li a:hover,
+.about-section .content-column .content-box h5,
+.service-block .lower-content h3 a:hover,
+.service-block .lower-content .link-box a,
+.fluid-section-one .content-column .text-column .inner-box .text,
+.project-section .product-tab-btns .p-tab-btn:hover,
+.project-section .product-tab-btns .p-tab-btn.active-btn,
+.project-section .text-column .inner-box h3,
+.project-tab .projects-carousel .owl-nav .owl-prev:hover, 
+.project-tab .projects-carousel .owl-nav .owl-next:hover,
+.project-section .text-column .inner-box .more-project a i,
+.project-section .text-column .inner-box .more-project a:hover,
+.testimonial-carousel .info-box .text-box .name,
+.team-block .inner-box:hover .info-box .name a,
+.progress-levels .progress-box .box-title,
+.news-block .caption-box .info li i,
+.news-block .inner-box .caption-box h3 a:hover,
+.news-carousel .owl-nav .owl-prev:hover, 
+.news-carousel .owl-nav .owl-next:hover,
+.social-icon-two li a:hover,
+.main-footer .links-widget .list li:before,
+.main-footer .links-widget .list li a:hover,
+.main-footer .links-widget .list-address li i,
+.banner-section .carousel-outer .thumbs-carousel .owl-next i:before,
+.banner-section .carousel-outer .thumbs-carousel .owl-next:hover,
+.header-style-two .main-menu .navigation > li > a:hover,
+.sticky-header .main-menu .navigation > li:hover > a,
+.sticky-header .main-menu .navigation > li.current > a,
+.sticky-header .main-menu .navigation > li.current-menu-item > a,
+.video-secion .text-column .inner-column h3,
+.recent-posts .post h4 a:hover,
+.main-header .cart-btn a,
+.main-header .cart-btn .count,
+.banner-carousel-two .content-box .title,
+.banner-section-three .info-bottom li span,
+.gallery-section .filters .filter-tabs .filter.active,
+.gallery-section .filters .filter-tabs .filter:hover,
+.default-portfolio-item .overlay-inner h3 a:hover,
+.default-portfolio-item .overlay-inner .link:hover .icon:before,
+.offer-section .content-column .title,
+.offer-section .content-column .discount,
+.accordion-box .block.active-block .acc-btn,
+.accordion-box .block .icon,
+.header-style-four .main-menu .navigation > li > a:hover,
+.main-menu .navigation > li.current > a,
+.header-style-four .search-box-btn:hover,
+.header-style-four .top-left .contact-list li a:hover,
+.header-style-four .top-left .contact-list li i,
+.header-style-four .social-icon-four li a:hover,
+.team-section.style-two .team-block .inner-box:hover .info-box .name a,
+.main-slider.style-two .social-icon-three li a:hover,
+.featured-secion .outer-cloumn:hover .text-box h4,
+.featured-secion .outer-cloumn .icon-box i:before,
+.product-block .inner-box .image .options-box .icon-area a:hover,
+.product-block .inner-box .lower-box .product-price li,
+.testimonial-block-two .info-box .name span,
+.sidebar .search-box .form-group input[type="submit"],
+.sidebar .search-box .form-group button,
+.cat-list li.active a span,
+.cat-list li:hover a span,
+.cat-list li.active a,
+.cat-list li:hover a,
+.blog-detail .social-icon li a:hover,
+.next-pre-post .post h3 a:hover,
+.next-pre-post .post .post-info a:hover,
+.comments-area .comment-box .date,
+.help-box .inner .theme-btn,
+.navbar-toggler .icon,
+.list-style-one li:before,
+.list-style-two li:before,
+.social-icon-one li a:hover,
+.main-header .contact-info li a:hover,
+.main-header .search-box-btn:hover,
+.header-style-five .main-menu .navigation > li > a:hover,
+.main-menu .navigation > li .mega-menu-bar .column > ul > li > a:hover,
+.banner-section-three .social-links li a:hover,
+.page-title .bread-crumb li,
+.page-title .bread-crumb li a:hover,
+.service-block:hover .inner-box .icon-box i:before,
+.fluid-section-two .services-box .box-cloumn:hover .icon-box i:before,
+.video-section .content-column .title,
+.video-section .video-column .video-box .link .icon,
+.price-section .price-block .price sub,
+.fact-counter .count-box .count,
+.fact-counter .count-box .count-text,
+.projects-section-two .upper-box .link-box a,
+.project-block-two .info-box .link-box a,
+.projects-carousel-two .owl-next:hover,
+.projects-carousel-two .owl-prev:hover,
+.help-box .inner .title,
+.recent-portfolio-carousal .owl-nav .owl-next:hover,
+.recent-portfolio-carousal .owl-nav .owl-prev:hover,
+.team-section .team-block .inner-box:hover .info-box .name a,
+.testimonial-carousel .owl-next:hover,
+.testimonial-carousel .owl-prev:hover,
+.featured-secion .outer-cloumn .icon-box i:before,
+.products-section.style-two .product-block .info-box .name,
+.offers-banner-section .offer-box-left .inner-column .offer-text,
+.news-carousel-two .owl-nav .owl-prev:hover, 
+.news-carousel-two .owl-nav .owl-next:hover,
+.contact-section .info-column .contact-info li a:hover,
+.contact-section .info-column .contact-info li i:before,
+.contact-page-info .info-column .contact-info .info-box a:hover,
+.contact-page-info .info-column .contact-info .info-box i:before,
+.fluid-section-one .image-column .fa,
+.video-secion .image-column .fa,
+.banner-carousel-two .link-box a,
+.accordion-box .block .icon-outer .icon,
+.header-style-four .header-searchbar i,
+.header-style-five .header-searchbar i,
+.news-block .image-box .link
+a{
+	color: #2ECC40;
+}
+
+/*=== Background Color ===*/
+.main-menu .navigation > li.current > a::before,
+.main-header .header-top,
+.btn-style-one,
+.banner-section .owl-dot.active,
+.nav-toggler:hover,
+.sec-title h2:before,
+.services-carousel .owl-dot:hover, 
+.services-carousel .owl-dot.active,
+.project-block .inner-box .image .overlay-box .see-more,
+.testimonial-carousel .owl-dots,
+.team-block .image-box .social-links li a:hover,
+.news-block .caption-box .post-date,
+.news-block .image-box .overlay-box,
+.news-block .inner-box .caption-box .post-date,
+.clients-section:before,
+.sec-title h3:before,
+.yellow-block,
+.sec-title h3:before,
+.main-footer .gallery-widget .image a:before,
+.main-footer.style-two .footer-bottom,
+.default-portfolio-item .overlay-inner .link,
+.product-block .inner-box .image .options-box .icon-area a,
+.project-block .inner-box .image .overlay-box .see-more span:before,
+.testimonial-block-two .image-box:before,
+.testimonial-carousel-two .owl-dot,
+.sidebar .instagram-widget .image-box .overlay-box,
+.tag-list li a:hover,
+.btn-style-five,
+.scroll-to-top:hover,
+.header-style-one .main-menu .navigation > li > a:before,
+.header-style-two .main-menu .navigation > li > a:before,
+.header-style-three .main-menu .navigation > li > a:before,
+.header-style-four .main-menu .navigation > li > a:before,
+.header-style-four .navigation > li > a:hover::before, 
+.header-style-four .navigation > li.current > a::before,
+.header-style-five .main-menu .navigation > li > a:before,
+.header-style-five .navigation > li > a:hover::before, 
+.header-style-five .navigation > li.current > a::before,
+.banner-section-two .form-column .content-box .title-box,
+.service-block .image-box .overlay-box,
+.services-section.style-two .services-carousel-two .center .service-block,
+.services-section.style-six .services-carousel-two .center .service-block,
+.newsletter-form button,
+.newsletter-form .form-group input[type="submit"],
+.styled-pagination li a:hover,
+.styled-pagination li.active a,
+.team-section .team-block .image-box .social-links li a:hover,
+.testimonial-carousel-two .owl-dot,
+.products-section.style-two .product-block .inner-box:hover .lower-box a,
+.blog-detail .news-block .caption-box blockquote:before,
+.clients-section:after,
+.main-footer:after,
+.main-footer .footer-column .widget-title::before,
+.footer-bottom.style-two,
+.group-title h2:before,
+.comments-area .comment-box .reply-btn,
+.header-style-one:after 
+{
+	background-color: #2ECC40;
+}
+
+/*Border Color*/
+.social-icon-three li a:hover
+.main-header .search-box-btn,
+.banner-carousel .owl-next:hover:before, 
+.banner-carousel .owl-prev:hover:before,
+.contact-form .form-group input:focus,
+.contact-form .form-group select:focus,
+.contact-form .form-group textarea:focus,
+.featured-secion .outer-cloumn:hover,
+.sidebar .search-box .form-group input:focus,
+.tag-list li a:hover,
+.help-box .inner .theme-btn:hover,
+.btn-style-two,
+.btn-style-two:hover,
+.banner-form .form-group input:focus,
+.banner-form .form-group select:focus,
+.banner-section-three .social-links li a:hover,
+.fluid-section-one .image-column .video-link .fa::after,
+.video-secion .image-column .video-link .fa::after,
+.styled-pagination li a:hover,
+.styled-pagination li.active a,
+.discount-form .form-group input:focus,
+.discount-form .form-group select:focus,
+.discount-form .form-group textarea:focus,
+.news-block .image-box .link .icon::after,
+.tag-list li a:hover,
+.header-searchbar i,
+.social-icon-three li a:hover,
+.fluid-section-one .image-column .fa,
+.video-secion .image-column .fa,
+.news-block .image-box .link
+{
+	border-color: #2ECC40;
+}
+
+.team-block .inner-box:hover .info-box,
+.team-section .team-block .inner-box:hover .info-box
+{
+	border-bottom-color: #2ECC40;
+}
+
+.main-menu .navigation > li > ul > li:hover > a,
+.main-menu .navigation > li > ul > li  > ul > li > a:hover
+{
+	border-left-color: #2ECC40;
+}
+
+{
+	border-right-color: #2ECC40;
+}
+.main-menu .navigation > li > a:hover::after,
+.main-menu .navigation > li.current > a::after{
+	border-top-color: #2ECC40;
+}
+
+
+/*=== Gradient Color ===*/
+{
+	background: rgb(255,174,0);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYWUwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjhhMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(255,174,0,1) 0%, rgba(255,138,0,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,174,0,1) 0%,rgba(255,138,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,174,0,1) 0%,rgba(255,138,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffae00', endColorstr='#2ECC40',GradientType=0 );
+}
+
+@media only screen and (max-width: 767px){
+	
+	.main-menu .navbar-header .navbar-toggler .icon{
+		color:#2ECC40;
+	}
+	
+	.main-menu .navbar-header .navbar-toggle,
+	.main-menu .navbar-collapse > .navigation,
+	.main-menu .navbar-collapse > .navigation > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > a:hover,
+	.main-menu .navbar-collapse > .navigation > li > a:active,
+	.main-menu .navbar-collapse > .navigation > li > a:focus,
+	.main-menu .navbar-collapse > .navigation > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+	.main-menu .navigation > li .mega-menu-bar .column > ul > li > a,
+	.main-menu .navigation > li .mega-menu-bar .column > ul > li:hover > a,
+	.main-menu .navigation > li .mega-menu-bar .column > ul > li > a,
+	.main-menu .navigation > li .mega-menu-bar .column > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li.current > a,
+	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
+		background-color:#2ECC40;
+	}
+	
+}

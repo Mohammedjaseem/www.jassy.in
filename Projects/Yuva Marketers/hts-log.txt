@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 21 Aug 2020 10:59:33 at http://htmlbeans.com/html/montero/home.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://htmlbeans.com/html/montero/home.html -O1 "J:\freelance Works\websites\viva marketing" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:59:35	Warning: 	Note: due to htmlbeans.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+11:00:46	Error: 	"Not Found" (404) at link htmlbeans.com/html/montero/Flaticon.svg (from htmlbeans.com/html/montero/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 12 seconds : 53 links scanned, 51 files written (3691696 bytes overall) [2628775 bytes received at 36510 bytes/sec], 1403508 bytes transferred using HTTP compression in 12 files, ratio 21%, 3.1 requests per connection
+(1 errors, 1 warnings, 0 messages)
