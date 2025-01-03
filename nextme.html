@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirect to App Store or Play Store</title>
+    <title>Redirecting...</title>
     <script type="text/javascript">
         // Function to detect the platform and redirect accordingly
         function redirectToStore() {
@@ -17,16 +17,15 @@
             else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
                 window.location.href = "https://apps.apple.com/ae/app/next-me/id6504331008";
             } else {
-                // If it's not Android or iOS, you can display a message or redirect elsewhere
-                alert("Your device is not supported for automatic redirection.");
+                // If the device is neither Android nor iOS, do nothing or handle as needed
+                // window.location.href = "https://yourfallbackurl.com"; // Uncomment if you need a fallback
             }
         }
-        
-        // Automatically redirect when the page loads
+
+        // Redirect immediately when the page loads
         window.onload = redirectToStore;
     </script>
 </head>
 <body>
-    <h1>Redirecting to the appropriate store...</h1>
 </body>
 </html>
