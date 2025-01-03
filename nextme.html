@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect to App Store or Play Store</title>
+    <script type="text/javascript">
+        // Function to detect the platform and redirect accordingly
+        function redirectToStore() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Check if the device is running Android
+            if (/android/i.test(userAgent)) {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.nextmeapp";
+            }
+            // Check if the device is running iOS
+            else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location.href = "https://apps.apple.com/ae/app/next-me/id6504331008";
+            } else {
+                // If it's not Android or iOS, you can display a message or redirect elsewhere
+                alert("Your device is not supported for automatic redirection.");
+            }
+        }
+        
+        // Automatically redirect when the page loads
+        window.onload = redirectToStore;
+    </script>
+</head>
+<body>
+    <h1>Redirecting to the appropriate store...</h1>
+</body>
+</html>
